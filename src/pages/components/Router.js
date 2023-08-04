@@ -22,8 +22,8 @@ export default function Routerr() {
         <>
         <HashRouter>
         <Routes>
-            <Route path="/gh-deneme/" element={<Layout />}>
-                <Route path='/gh-deneme/' element={<Home />} />
+            <Route path="/gh-deneme" element={<Layout />}>
+                <Route path='/gh-deneme' exact element={<Home />} />
                 <Route path='*' element={<Error />} />
             </Route>
         </Routes>
