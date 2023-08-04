@@ -1,6 +1,6 @@
 import Home from '../Home'
 import Error from '../Error'
-import { HashRouter, Routes, Route, Outlet } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 export default function Routerr() {
     return (
