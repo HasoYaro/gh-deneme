@@ -20,6 +20,7 @@ export default function Routerr() {
 
     return (
         <>
+        <h1>dsa</h1>
         <HashRouter basename='/gh-deneme/'>
         <Routes>
             <Route path="/" element={<Layout />}>
