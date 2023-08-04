@@ -20,10 +20,10 @@ export default function Routerr() {
 
     return (
         <>
-        <HashRouter>
+        <HashRouter basename='/gh-deneme/'>
         <Routes>
-            <Route path="/gh-deneme" element={<Layout />}>
-                <Route path='/gh-deneme' exact element={<Home />} />
+            <Route path="/" element={<Layout />}>
+                <Route path='/' exact element={<Home />} />
                 <Route path='*' element={<Error />} />
             </Route>
         </Routes>
