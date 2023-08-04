@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gh-deneme/static/css/main.98eb1308.css",
+    "main.css": "/gh-deneme/static/css/main.6c2be1c7.css",
     "main.js": "/gh-deneme/static/js/main.a7438e06.js",
     "static/js/787.c0b29918.chunk.js": "/gh-deneme/static/js/787.c0b29918.chunk.js",
     "static/media/insta.svg": "/gh-deneme/static/media/insta.c0113239bc87d217189205448af0e84a.svg",
@@ -8,12 +8,12 @@
     "static/media/home_icon.svg": "/gh-deneme/static/media/home_icon.fde304a5dbb44ee6560d861fc76c7ca5.svg",
     "index.html": "/gh-deneme/index.html",
     "static/media/header_bar.svg": "/gh-deneme/static/media/header_bar.dd92aed316c5967acbf1f7094cd87de4.svg",
-    "main.98eb1308.css.map": "/gh-deneme/static/css/main.98eb1308.css.map",
+    "main.6c2be1c7.css.map": "/gh-deneme/static/css/main.6c2be1c7.css.map",
     "main.a7438e06.js.map": "/gh-deneme/static/js/main.a7438e06.js.map",
     "787.c0b29918.chunk.js.map": "/gh-deneme/static/js/787.c0b29918.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98eb1308.css",
+    "static/css/main.6c2be1c7.css",
     "static/js/main.a7438e06.js"
   ]
 }
