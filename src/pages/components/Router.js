@@ -21,13 +21,14 @@ export default function Routerr() {
     return (
         <>
         <h1>dsa</h1>
-        
+        <HashRouter hashType="hashbang">
         <Routes>
             <Route path="/" element={<Layout />}>
                 <Route path='/' exact element={<Home />} />
                 <Route path='*' element={<Error />} />
             </Route>
         </Routes>
+        </HashRouter>
         </>
     )
 
