@@ -3,7 +3,7 @@ import headerBar from '../assets/images/header_bar.svg'
 import '../styles/Header.css'
 import { Link } from 'react-router-dom'
 
-function Header() {
+export default function Header() {
 
 
     return(
@@ -31,5 +31,3 @@ function Header() {
         </>
     );
 }
-
-export default Header

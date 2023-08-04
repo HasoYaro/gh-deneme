@@ -2,7 +2,7 @@ import insta from '../assets/images/insta.svg'
 import twitter from '../assets/images/twitter.svg'
 import '../styles/Footer.css'
 
-function Footer() {
+export default function Footer() {
     return(
         <>
         <div className="footer">
@@ -20,5 +20,3 @@ function Footer() {
         </>
     );
 }
-
-export default Footer
