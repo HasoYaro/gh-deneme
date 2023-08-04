@@ -3,15 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter } from 'react-router-dom';
-import Header from './pages/components/Header';
-import Footer from './pages/components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
         <div className='Parent'>
-          <h1>Hasan</h1>
           <App />  
         </div>
   </React.StrictMode>
