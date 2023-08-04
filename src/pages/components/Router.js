@@ -23,7 +23,7 @@ export default function Routerr() {
         <HashRouter>
         <Routes>
             <Route path="/" element={<Layout />}>
-                <Route path='/' element={<Home />} />
+                <Route path='/home' element={<Home />} />
                 <Route path='*' element={<Error />} />
             </Route>
         </Routes>
