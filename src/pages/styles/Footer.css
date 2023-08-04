@@ -1,0 +1,56 @@
+.footer {
+    width: 100%;
+    background-color: #212121;
+
+
+}
+
+.footer-cont {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col-head {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    color: white;
+}
+
+.footer-col-foot {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.footer-col-foot img {
+    padding-bottom: 10px;
+    width: 2.5vw;
+    margin: 4px;
+    filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(313deg) brightness(101%) contrast(105%);
+
+}
+
+.footer-col-head h3 {
+    font-size: 2vw;
+}
+
+.footer-col-head h5 {
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-col-head h3 {
+        font-size: 3vw;
+    }
+    
+    .footer-col-head h5 {
+        font-size: 2.5vw;
+    }
+
+    .footer-col-foot img {
+        width: 4.5vw;
+    }
+}

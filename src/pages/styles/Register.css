@@ -1,0 +1,120 @@
+.reg-parent {
+    width: 100%;
+}
+
+.reg-cont {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.reg-cont ul {
+    list-style: none;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.reg-cont ul li {
+    margin: auto;
+    padding: 25px;
+    color: #212121;
+}
+
+.reg-title{
+    font-size: 3vw;
+}
+
+.reg-cont ul li input {
+    width: 100%;
+    margin: auto;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    padding: 5px 10px;
+    font-size: 2vw;
+
+    transition: all 0.2s ease;
+}
+
+.reg-ufak, .reg-cont ul li a{
+    font-size: 1.5vw;
+}
+
+.reg-cont ul li a {
+    color: white;
+}
+.reg-cont ul li input:focus {
+    outline: none;
+    border-bottom: 2px solid royalblue;
+}
+
+.reg-cont ul li button {
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 3vw;
+    border-radius: 20px;
+    border: 0;
+}
+
+.reg-err {
+    color: white;
+    text-align: left;
+    border-radius: 5px;
+    background-color: #212121;
+    font-size: 1vw;
+    padding: 5px 15px;
+    width: 60%;
+    margin-left: 20px;
+}
+
+.reg-errr {
+    color: white;
+    text-align: left;
+    border-radius: 5px;
+    background-color: #212121;
+    font-size: 1vw;
+    padding: 5px 15px;
+    width: 60%;
+    margin-left: 20px;
+}
+
+.reg-gizle {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .reg-cont {
+        padding: 10px 0px;
+        width: 100%;
+    }
+
+    .reg-cont ul {
+        width: 80%;
+    }
+
+    .reg-cont ul li {
+        padding: 20px;
+    }
+
+    .reg-title {
+        font-size: 7vw;
+    }
+
+    .reg-cont ul li input {
+        font-size: 4vw;
+    }
+
+    .reg-ufak, .reg-cont ul li a{
+        font-size: 4vw;
+    }
+    
+    .reg-cont ul li button {
+        font-size: 4vw;
+    }
+
+    .reg-err {
+        font-size: 2vw;
+    }
+}

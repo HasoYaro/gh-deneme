@@ -1,0 +1,74 @@
+.home-cont {
+    width: 100%;
+}
+
+.home-cont ul {
+    text-align: center;
+    justify-content: center;
+}
+
+.home-cont ul li {
+    color: #212121;
+    padding: 50px 0;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.home-cont ul li h1 label{
+    font-size: 3vw;
+}
+
+.home-cont ul li input {
+    width: 40%;
+    font-size: 3vw;
+    margin-right: 20px;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    color: #212121;
+}
+
+.home-cont ul li button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    border: 0;
+    font-size: 2.5vw;
+    color: #212121;
+}
+
+.home-cont ul li input:focus {
+    outline: none;
+}
+
+.home-btn {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+    .home-cont ul li {
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-cont ul li {
+        padding: 20px 0;
+    }
+
+    .home-cont ul li h1 label{
+        font-size: 4.9vw;
+    }
+
+    .home-cont ul li input {
+        font-size: 6vw;
+    }
+
+    .home-cont ul li button {
+        font-size: 4.5vw;
+
+    }
+}

@@ -1,0 +1,90 @@
+.login-parent {
+    width: 100%;
+}
+
+.login-cont {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.login-cont ul {
+    list-style: none;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.login-cont ul li {
+    margin: auto;
+    padding: 25px;
+    color: #212121;
+}
+
+.login-cont ul li h1 {
+    font-size: 3vw;
+}
+
+.login-cont ul li input {
+    width: 100%;
+    margin: auto;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    padding: 5px 10px;
+    font-size: 2vw;
+
+    transition: all 0.2s ease;
+}
+
+.login-ufak, .login-cont ul li a{
+    font-size: 1.5vw;
+}
+
+.login-cont ul li a {
+    color: white;
+}
+.login-cont ul li input:focus {
+    outline: none;
+    border-bottom: 2px solid royalblue;
+}
+
+.login-cont ul li button {
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 3vw;
+    border-radius: 20px;
+    border: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .login-cont {
+        padding: 10px 0px;
+        width: 100%;
+    }
+
+    .login-cont ul {
+        width: 80%;
+    }
+
+    .login-cont ul li {
+        padding: 20px;
+    }
+
+    .login-cont ul li h1 {
+        font-size: 7vw;
+    }
+
+    .login-cont ul li input {
+        font-size: 4vw;
+    }
+
+    .login-ufak, .login-cont ul li a{
+        font-size: 4vw;
+    }
+    
+    .login-cont ul li button {
+        font-size: 4vw;
+    }
+}
