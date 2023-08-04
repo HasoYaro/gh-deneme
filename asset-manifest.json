@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/gh-deneme/static/css/main.e516ff88.css",
-    "main.js": "/gh-deneme/static/js/main.f465c6e4.js",
+    "main.css": "/gh-deneme/static/css/main.98eb1308.css",
+    "main.js": "/gh-deneme/static/js/main.9c30f17e.js",
     "static/js/787.c0b29918.chunk.js": "/gh-deneme/static/js/787.c0b29918.chunk.js",
     "static/media/insta.svg": "/gh-deneme/static/media/insta.c0113239bc87d217189205448af0e84a.svg",
     "static/media/twitter.svg": "/gh-deneme/static/media/twitter.489d38fdb648545cd50e0679629b9348.svg",
     "static/media/home_icon.svg": "/gh-deneme/static/media/home_icon.fde304a5dbb44ee6560d861fc76c7ca5.svg",
     "index.html": "/gh-deneme/index.html",
     "static/media/header_bar.svg": "/gh-deneme/static/media/header_bar.dd92aed316c5967acbf1f7094cd87de4.svg",
-    "main.e516ff88.css.map": "/gh-deneme/static/css/main.e516ff88.css.map",
-    "main.f465c6e4.js.map": "/gh-deneme/static/js/main.f465c6e4.js.map",
+    "main.98eb1308.css.map": "/gh-deneme/static/css/main.98eb1308.css.map",
+    "main.9c30f17e.js.map": "/gh-deneme/static/js/main.9c30f17e.js.map",
     "787.c0b29918.chunk.js.map": "/gh-deneme/static/js/787.c0b29918.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e516ff88.css",
-    "static/js/main.f465c6e4.js"
+    "static/css/main.98eb1308.css",
+    "static/js/main.9c30f17e.js"
   ]
 }
