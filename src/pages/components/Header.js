@@ -9,7 +9,7 @@ function Header() {
     return(
         <>
         <div className="header-div">
-            <Link to="/"><img className="header-logo" src={logo} alt="logo" /></Link>
+            <Link to="/gh-deneme"><img className="header-logo" src={logo} alt="logo" /></Link>
             <label className="header-logo-name">Haso's App</label>
             <label for="check" className="header-checkbtn">
             <img className="header-bar-icon" src={headerBar} alt="header_bar" />
