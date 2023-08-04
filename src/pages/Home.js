@@ -29,10 +29,10 @@ export default function Home() {
             <div className='home-cont'>
                 <form>
                 <ul>
-                    <li><h1><label>Selamlamak istediğiniz kişinin ismini girin</label></h1></li>
-                    <li><label><input autoComplete='off' value={userInput} onChange={(e) => setUserInput(e.target.value)} required id="home-isim-input" /><button onClick={selamla}>Selamla</button></label></li>
-                    <li><h1><label style={{color: hata ? 'red' : '#212121'}}>{isim}</label></h1></li>
-                    <li><label><button className='home-btn'>Kaydet</button><button className='home-btn'>Çıkış</button></label></li>
+                    <li>Selamlamak istediğiniz kişinin ismini girin</li>
+                    <li><input autoComplete='off' value={userInput} onChange={(e) => setUserInput(e.target.value)} required id="home-isim-input" /><button onClick={selamla}>Selamla</button></li>
+                    <li style={{color: hata ? 'red' : '#212121'}}>&nbsp;{isim}&nbsp;</li>
+                    <li>&nbsp;</li>
                 </ul>
                 </form>
             </div>
