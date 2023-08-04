@@ -10,12 +10,10 @@ import Footer from './pages/components/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>haso</h1>
-    <Header />
         <div className='Parent'>
+          <h1>Hasan</h1>
           <App />  
         </div>
-      <Footer />
   </React.StrictMode>
 );
 
