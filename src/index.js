@@ -8,9 +8,13 @@ import { HashRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HashRouter HashType="hashbang">
-      <App />
+    <Header />
+      <HashRouter HashType="hashbang">
+        <div className='Parent'>
+          <App />  
+        </div>
       </HashRouter>
+      <Footer />
   </React.StrictMode>
 );
 

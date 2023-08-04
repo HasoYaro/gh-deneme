@@ -12,3 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Parent {
+  width: 75%;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .Parent {
+      width: 100%;
+  }
+}
