@@ -12,11 +12,9 @@ root.render(
   <React.StrictMode>
     <h1>haso</h1>
     <Header />
-      <HashRouter HashType="hashbang">
         <div className='Parent'>
           <App />  
         </div>
-      </HashRouter>
       <Footer />
   </React.StrictMode>
 );
