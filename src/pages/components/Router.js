@@ -10,7 +10,7 @@ export default function Routerr() {
         <HashRouter hashType="hashbang">
         <Header />
         <Routes>
-            <Route path='/' exact element={<Home />} />
+            <Route path='/a' exact element={<Home />} />
             <Route path='*' element={<Error />} />
         </Routes>
         <Footer />
